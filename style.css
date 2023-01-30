@@ -52,7 +52,7 @@
 	.gellary-hover {
 		width: 100%;
 	}
-	.col-chef {
+	.colr-chef {
 		width: 100%;
 	}
 	.col-15 {
@@ -108,7 +108,7 @@
 	.gellary-hover {
 		width: 50%;
 	}
-	.col-chef {
+	.colr-chef{
 		width: 100%;
 	}
 	.col-15 {
@@ -164,7 +164,7 @@
 	.gellary-hover {
 		width: 33%;
 	}
-	.col-chef {
+	.colr-chef {
 		width: 33%;
 	}
 	.col-15 {
@@ -220,7 +220,7 @@
 	.gellary-hover {
 		width: 25%;
 	}
-	.col-chef {
+	.colr-chef {
 		width: 33%;
 	}
 	.col-15 {
@@ -738,7 +738,7 @@ textarea {
 	width:100%;
 }
 .col-chef{
-	
+	padding:25px 5px;
 	text-align: center;
     margin-bottom: 80px;
     position: relative;
