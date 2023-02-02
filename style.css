@@ -58,6 +58,9 @@
 	.col-15 {
 		width: 100%;
 	}
+	.box-top p {
+		width: 100%;
+	}
 }
 @media (min-width:600px) {
 	.home-content{
@@ -112,6 +115,9 @@
 		width: 100%;
 	}
 	.col-15 {
+		width: 100%;
+	}
+	.box-top p {
 		width: 100%;
 	}
 }
@@ -170,6 +176,9 @@
 	.col-15 {
 		width: 50%;
 	}
+	.box-top p {
+		width: 60%;
+	}
 }
 @media (min-width:1020px) {
 	.home-content{
@@ -226,6 +235,9 @@
 	.col-15 {
 		width: 25%;
 	}
+	.box-top p {
+		width: 60%;
+	}
 } 
 .container{
 	width:100%;
@@ -249,12 +261,6 @@ h1, h2, h3, h4, h5, h6 {
 	z-index: 997;
 	transition: all 0.5s;
 }
-.file-1{
-	width:30%;
-	display:flex;
-	align-items:center;
-	justify-content:center;
-}
 .nav{ 
 	width:70%;
 	align-items:center;
@@ -276,7 +282,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .file-1{
 	width:30%;
-	text-align:center;
+	padding: 0px 20px;
 }
 .top-button{
     background: #ffb03b;
@@ -290,15 +296,21 @@ h1, h2, h3, h4, h5, h6 {
     transition: 0.3s;
     white-space: nowrap;
 }
+.d-box{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin:8% 0;
+}
 .box-top{
   text-align: center;
   padding: 40px ;
   width:80% ;
-  left:10% ;
+  /* left:10% ;
   right:0 ;
   top:37%;
   margin-bottom: 10%;
-  position:absolute;
+  position:absolute; */
   color:white;
 }
 span{
@@ -375,7 +387,6 @@ span{
 	display:inline-block;
 }
 .box-top p {
-    width: 60%;
 	margin:auto;
 	text-align:center;
 	padding:20px 0;
@@ -745,7 +756,7 @@ textarea {
 }
 .chef-content {
     position: absolute;
-    bottom: -80px;
+    bottom: -45px;
     left: 20px;
     right: 20px;
     background: #fff;
@@ -801,7 +812,7 @@ textarea {
 	position:relative;
 }
 .home-content-2{
-	padding:0 60px;
+	padding:0 10px;
 	color:white;
 }
 .home{
